@@ -10,8 +10,12 @@
 
   /* 640 */
   @media (min-width: 40em) {
+  }
+
+  /* 960 */
+  @media (min-width: 60em) {
     footer {
-      padding: 4vw;
+      padding: 2vw 6vw;
     }
   }
 
@@ -25,7 +29,7 @@
   /* 1920 */
   @media (min-width: 120em) {
     footer {
-      padding: 77px;
+      padding: 39px 115px;
     }
   }
 </style>
