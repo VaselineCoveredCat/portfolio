@@ -22,25 +22,15 @@
 
 <style>
   ul {
-    list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: end;
     gap: 6vw;
+    justify-content: end;
     padding: 6vw;
   }
 
   a {
-    display: inline-block;
-    background-color: transparent;
-    color: inherit;
-    text-decoration: none;
-    outline-offset: 4px;
     position: relative;
-  }
-
-  a:focus {
-    outline: var(--color-powder-3) solid 4px;
   }
 
   a::before,
@@ -51,12 +41,12 @@
     width: 100%;
     height: 2px;
     pointer-events: none;
-    background-color: var(--color-gray-1);
+    background-color: var(--gray-3);
   }
 
   a::before {
-    content: "";
     height: 2px;
+    content: "";
     opacity: 0;
   }
 
@@ -71,10 +61,10 @@
 
   @keyframes animate1 {
     0% {
-      opacity: 1;
-      transform: translate3d(-10px, 0, 0) scale3d(-1, -1, 1);
       -webkit-clip-path: polygon(0 20%, 100% 20%, 100% 21%, 0 21%);
       clip-path: polygon(0 20%, 100% 20%, 100% 21%, 0 21%);
+      opacity: 1;
+      transform: translate3d(-10px, 0, 0) scale3d(-1, -1, 1);
     }
 
     10% {
@@ -117,10 +107,10 @@
     }
 
     100% {
-      opacity: 1;
-      transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
       clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+      opacity: 1;
+      transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
     }
   }
 
@@ -186,16 +176,12 @@
 
   /* 640 */
   @media (min-width: 40em) {
-    ul {
-      gap: 4vw;
-      padding: 4vw;
-    }
   }
 
   /* 960 */
   @media (min-width: 60em) {
     ul {
-      padding: 2vw 4vw;
+      padding: 2vw 6vw;
     }
   }
 
@@ -209,8 +195,8 @@
   /* 1920 */
   @media (min-width: 120em) {
     ul {
-      gap: 77px;
-      padding: 39px 77px;
+      gap: 115px;
+      padding: 39px 115px;
     }
   }
 </style>
