@@ -65,6 +65,13 @@
   @media (min-width: 80em) {
     p {
       max-width: 80%;
+      font-size: var(--h4);
+    }
+  }
+
+  /* 1440 */
+  @media (min-width: 90em) {
+    p {
       font-size: var(--h3);
     }
   }
