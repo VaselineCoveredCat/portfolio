@@ -174,57 +174,66 @@
   --pink-5: hsl(319.97, 99.95%, 23.72%);
   --pink-6: hsl(321.26, 99.94%, 14.63%);
 
-  --size--2: clamp(0.61rem, calc(0.94rem + -0.27vw), 0.89rem);
-  --size--1: clamp(0.92rem, calc(1.02rem + -0.08vw), 1rem);
-  --size-0: clamp(1.13rem, calc(1.08rem + 0.25vw), 1.38rem);
-  --size-1: clamp(1.27rem, calc(1.12rem + 0.79vw), 2.06rem);
-  --size-2: clamp(1.42rem, calc(1.12rem + 1.65vw), 3.09rem);
-  --size-3: clamp(1.6rem, calc(1.05rem + 2.99vw), 4.64rem);
-  --size-4: clamp(1.8rem, calc(0.86rem + 5.08vw), 6.96rem);
-  --size-5: clamp(2.03rem, calc(0.49rem + 8.29vw), 10.44rem);
+  --size--2: clamp(0.61rem, calc(0.7rem + -0.08vw), 0.69rem);
+  --size--1: clamp(0.78rem, calc(0.76rem + 0.13vw), 0.92rem);
+  --size-0: clamp(0.88rem, calc(0.8rem + 0.48vw), 1.38rem);
+  --size-1: clamp(0.98rem, calc(0.83rem + 1.03vw), 2.06rem);
+  --size-2: clamp(1.11rem, calc(0.82rem + 1.89vw), 3.09rem);
+  --size-3: clamp(1.25rem, calc(0.76rem + 3.23vw), 4.64rem);
+  --size-4: clamp(1.4rem, calc(0.61rem + 5.29vw), 6.96rem);
+  --size-5: clamp(1.58rem, calc(0.31rem + 8.44vw), 10.44rem);
 
-  --gap-3xs: clamp(0.31rem, calc(0.3rem + 0.06vw), 0.38rem);
-  --gap-2xs: clamp(0.56rem, calc(0.54rem + 0.12vw), 0.69rem);
-  --gap-xs: clamp(0.88rem, calc(0.84rem + 0.18vw), 1.06rem);
-  --gap-s: clamp(1.13rem, calc(1.08rem + 0.25vw), 1.38rem);
-  --gap-m: clamp(1.69rem, calc(1.62rem + 0.37vw), 2.06rem);
-  --gap-l: clamp(2.25rem, calc(2.16rem + 0.49vw), 2.75rem);
-  --gap-xl: clamp(3.38rem, calc(3.24rem + 0.74vw), 4.13rem);
-  --gap-2xl: clamp(4.5rem, calc(4.32rem + 0.99vw), 5.5rem);
-  --gap-3xl: clamp(6.75rem, calc(6.48rem + 1.48vw), 8.25rem);
+  --gap-3xs: clamp(0.25rem, calc(0.23rem + 0.12vw), 0.38rem);
+  --gap-2xs: clamp(0.44rem, calc(0.4rem + 0.24vw), 0.69rem);
+  --gap-xs: clamp(0.69rem, calc(0.63rem + 0.36vw), 1.06rem);
+  --gap-s: clamp(0.88rem, calc(0.8rem + 0.48vw), 1.38rem);
+  --gap-m: clamp(1.31rem, calc(1.21rem + 0.71vw), 2.06rem);
+  --gap-l: clamp(1.75rem, calc(1.61rem + 0.95vw), 2.75rem);
+  --gap-xl: clamp(2.63rem, calc(2.41rem + 1.43vw), 4.13rem);
+  --gap-2xl: clamp(3.5rem, calc(3.21rem + 1.9vw), 5.5rem);
+  --gap-3xl: clamp(5.25rem, calc(4.82rem + 2.86vw), 8.25rem);
 
-  --gap-3xs-2xs: clamp(0.31rem, calc(0.24rem + 0.37vw), 0.69rem);
-  --gap-2xs-xs: clamp(0.56rem, calc(0.47rem + 0.49vw), 1.06rem);
-  --gap-xs-s: clamp(0.88rem, calc(0.78rem + 0.49vw), 1.38rem);
-  --gap-s-m: clamp(1.13rem, calc(0.95rem + 0.92vw), 2.06rem);
-  --gap-m-l: clamp(1.69rem, calc(1.49rem + 1.05vw), 2.75rem);
-  --gap-l-xl: clamp(2.25rem, calc(1.91rem + 1.85vw), 4.13rem);
-  --gap-xl-2xl: clamp(3.38rem, calc(2.99rem + 2.09vw), 5.5rem);
-  --gap-2xl-3xl: clamp(4.5rem, calc(3.82rem + 3.69vw), 8.25rem);
+  --gap-3xs-2xs: clamp(0.25rem, calc(0.19rem + 0.42vw), 0.69rem);
+  --gap-2xs-xs: clamp(0.44rem, calc(0.35rem + 0.6vw), 1.06rem);
+  --gap-xs-s: clamp(0.69rem, calc(0.59rem + 0.65vw), 1.38rem);
+  --gap-s-m: clamp(0.88rem, calc(0.71rem + 1.13vw), 2.06rem);
+  --gap-m-l: clamp(1.31rem, calc(1.11rem + 1.37vw), 2.75rem);
+  --gap-l-xl: clamp(1.75rem, calc(1.41rem + 2.26vw), 4.13rem);
+  --gap-xl-2xl: clamp(2.63rem, calc(2.21rem + 2.74vw), 5.5rem);
+  --gap-2xl-3xl: clamp(3.5rem, calc(2.82rem + 4.52vw), 8.25rem);
 
-  --gap-3xs-xs: clamp(0.31rem, calc(0.18rem + 0.74vw), 1.06rem);
-  --gap-2xs-s: clamp(0.56rem, calc(0.41rem + 0.8vw), 1.38rem);
-  --gap-xs-m: clamp(0.88rem, calc(0.66rem + 1.17vw), 2.06rem);
-  --gap-s-l: clamp(1.13rem, calc(0.83rem + 1.6vw), 2.75rem);
-  --gap-m-xl: clamp(1.69rem, calc(1.24rem + 2.4vw), 4.13rem);
-  --gap-l-2xl: clamp(2.25rem, calc(1.66rem + 3.2vw), 5.5rem);
-  --gap-xl-3xl: clamp(3.38rem, calc(2.49rem + 4.8vw), 8.25rem);
+  --gap-3xs-xs: clamp(0.25rem, calc(0.13rem + 0.77vw), 1.06rem);
+  --gap-2xs-s: clamp(0.44rem, calc(0.3rem + 0.89vw), 1.38rem);
+  --gap-xs-m: clamp(0.69rem, calc(0.49rem + 1.31vw), 2.06rem);
+  --gap-s-l: clamp(0.88rem, calc(0.61rem + 1.79vw), 2.75rem);
+  --gap-m-xl: clamp(1.31rem, calc(0.91rem + 2.68vw), 4.13rem);
+  --gap-l-2xl: clamp(1.75rem, calc(1.21rem + 3.57vw), 5.5rem);
+  --gap-xl-3xl: clamp(2.63rem, calc(1.82rem + 5.36vw), 8.25rem);
 
-  --gap-3xs-s: clamp(0.31rem, calc(0.12rem + 1.05vw), 1.38rem);
-  --gap-2xs-m: clamp(0.56rem, calc(0.29rem + 1.48vw), 2.06rem);
-  --gap-xs-l: clamp(0.88rem, calc(0.53rem + 1.85vw), 2.75rem);
-  --gap-s-xl: clamp(1.13rem, calc(0.58rem + 2.96vw), 4.13rem);
-  --gap-m-2xl: clamp(1.69rem, calc(0.99rem + 3.76vw), 5.5rem);
-  --gap-l-3xl: clamp(2.25rem, calc(1.16rem + 5.91vw), 8.25rem);
+  --gap-3xs-s: clamp(0.25rem, calc(0.09rem + 1.07vw), 1.38rem);
+  --gap-2xs-m: clamp(0.44rem, calc(0.21rem + 1.55vw), 2.06rem);
+  --gap-xs-l: clamp(0.69rem, calc(0.39rem + 1.96vw), 2.75rem);
+  --gap-s-xl: clamp(0.88rem, calc(0.41rem + 3.1vw), 4.13rem);
+  --gap-m-2xl: clamp(1.31rem, calc(0.71rem + 3.99vw), 5.5rem);
+  --gap-l-3xl: clamp(1.75rem, calc(0.82rem + 6.19vw), 8.25rem);
 
-  --gap-3xs-m: clamp(0.31rem, calc(-0.01rem + 1.72vw), 2.06rem);
-  --gap-2xs-l: clamp(0.56rem, calc(0.16rem + 2.16vw), 2.75rem);
-  --gap-xs-xl: clamp(0.88rem, calc(0.28rem + 3.2vw), 4.13rem);
-  --gap-s-2xl: clamp(1.13rem, calc(0.33rem + 4.31vw), 5.5rem);
-  --gap-m-3xl: clamp(1.69rem, calc(0.49rem + 6.47vw), 8.25rem);
+  --gap-3xs-m: clamp(0.25rem, calc(-0.01rem + 1.73vw), 2.06rem);
+  --gap-2xs-l: clamp(0.44rem, calc(0.11rem + 2.2vw), 2.75rem);
+  --gap-xs-xl: clamp(0.69rem, calc(0.2rem + 3.27vw), 4.13rem);
+  --gap-s-2xl: clamp(0.88rem, calc(0.21rem + 4.4vw), 5.5rem);
+  --gap-m-3xl: clamp(1.31rem, calc(0.32rem + 6.61vw), 8.25rem);
+
+  --gap-3xs-l: clamp(0.25rem, calc(-0.11rem + 2.38vw), 2.75rem);
+  --gap-2xs-xl: clamp(0.44rem, calc(-0.09rem + 3.51vw), 4.13rem);
+  --gap-xs-2xl: clamp(0.69rem, calc(0rem + 4.58vw), 5.5rem);
+  --gap-s-3xl: clamp(0.88rem, calc(-0.18rem + 7.02vw), 8.25rem);
 
   --body: "body", "body-fallback", sans-serif;
   --head: "head", "head-fallback", sans-serif;
+
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
 }
 
 @font-face {
@@ -262,7 +271,8 @@
 }
 
 html {
-  background-color: black;
+  font-size: 100%;
+  background-color: var(--gray-2);
   scrollbar-color: var(--teal-6) var(--teal-2);
 }
 
@@ -282,6 +292,7 @@ html {
 :where(h1, h2, h3, h4, h5) {
   font-family: var(--head);
   font-weight: 900;
+  transition: all 500ms cubic-bezier(0.25, 0, 0.4, 1);
 }
 
 h1 {
@@ -320,8 +331,10 @@ body {
   font-family: var(--body);
   font-size: var(--size-0);
   font-weight: 400;
-  color: var(--teal-2);
-  background-color: var(--teal-6);
+  color: var(--teal-5);
+  letter-spacing: 0.025em;
+  background-color: var(--teal-2);
+  box-shadow: var(--shadow);
   transition: all 500ms cubic-bezier(0.25, 0, 0.4, 1);
 }
 
@@ -370,14 +383,13 @@ ul:not([role="list"]) {
   text-transform: uppercase;
 }
 
-/* 600px */
-@media (min-width: 37.5em) {
-}
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: black;
+  }
 
-/* 800px */
-@media (min-width: 50em) {
-}
-
-/* 1000px */
-@media (min-width: 62.5em) {
+  body {
+    color: var(--teal-2);
+    background-color: var(--teal-6);
+  }
 }
