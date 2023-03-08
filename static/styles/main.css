@@ -254,7 +254,7 @@
   font-family: "body";
   font-style: normal;
   font-weight: 400;
-  src: local(""),
+  src: local("Sintony"),
     url("../fonts/sintony-v13-latin-regular.woff2") format("woff2"),
     url("../fonts/sintony-v13-latin-regular.woff") format("woff");
   font-display: swap;
@@ -264,7 +264,7 @@
   font-family: "head";
   font-style: normal;
   font-weight: 900;
-  src: local(""),
+  src: local("Source Sans Pro"),
     url("../fonts/source-sans-pro-v21-latin-900.woff2") format("woff2"),
     url("../fonts/source-sans-pro-v21-latin-900.woff") format("woff");
   font-display: swap;
