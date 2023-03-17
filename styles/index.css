@@ -2,10 +2,10 @@
   --rose-3: hsl(334.81, 99.99%, 61.6%);
   --teal-1: hsl(167.47, 100%, 92.17%);
   --teal-6: hsl(171.81, 99.98%, 7.68%);
-  --size-0: clamp(1rem, calc(0.95rem + 0.36vw), 1.38rem);
-  --size-1: clamp(1.13rem, calc(0.99rem + 0.89vw), 2.06rem);
-  --size-3: clamp(1.42rem, calc(0.96rem + 3.06vw), 4.64rem);
-  --size-5: clamp(1.8rem, calc(0.57rem + 8.23vw), 10.44rem);
+  --size-0: clamp(1rem, calc(0.93rem + 0.38vw), 1.38rem);
+  --size-1: clamp(1.13rem, calc(0.94rem + 0.94vw), 2.06rem);
+  --size-3: clamp(1.42rem, calc(0.78rem + 3.22vw), 4.64rem);
+  --size-5: clamp(1.8rem, calc(0.07rem + 8.64vw), 10.44rem);
 }
 
 @font-face {
