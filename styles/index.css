@@ -6,6 +6,9 @@
   --size-1: clamp(1.13rem, calc(0.94rem + 0.94vw), 2.06rem);
   --size-3: clamp(1.42rem, calc(0.78rem + 3.22vw), 4.64rem);
   --size-5: clamp(1.8rem, calc(0.07rem + 8.64vw), 10.44rem);
+  --gap-s: clamp(1rem, calc(0.93rem + 0.38vw), 1.38rem);
+  --gap-s-2xl: clamp(1rem, calc(0.1rem + 4.5vw), 5.5rem);
+  --gap-l: clamp(2rem, calc(1.85rem + 0.75vw), 2.75rem);
 }
 
 @font-face {
@@ -141,9 +144,10 @@ p {
   hyphens: auto;
 }
 
-h1 + p {
-  -webkit-margin-before: var(--size-3);
-  margin-block-start: var(--size-3);
+h1 + p,
+.project li + li {
+  -webkit-margin-before: var(--gap-l);
+  margin-block-start: var(--gap-l);
 }
 
 .container {
@@ -156,22 +160,22 @@ h1 + p {
 .header,
 .main,
 .footer {
-  padding-inline: var(--size-3);
+  padding-inline: var(--gap-s-2xl);
 }
 
 .header,
 .footer {
-  padding-block: var(--size-1);
+  padding-block: var(--gap-s);
 }
 
 .header ul {
   display: flex;
-  gap: var(--size-1);
+  gap: var(--gap-s);
   justify-content: end;
 }
 
 .main {
-  padding-block: var(--size-3);
+  padding-block: var(--gap-s-2xl);
 }
 
 .project:focus-within .project-item {
@@ -182,19 +186,10 @@ h1 + p {
   opacity: 1;
 }
 
-.project {
-  -webkit-margin-before: var(--size-1);
-  margin-block-start: var(--size-1);
-}
-
+.project,
 .project picture + p {
-  -webkit-margin-before: var(--size-0);
-  margin-block-start: var(--size-0);
-}
-
-.project li + li {
-  -webkit-margin-before: var(--size-1);
-  margin-block-start: var(--size-1);
+  -webkit-margin-before: var(--gap-s);
+  margin-block-start: var(--gap-s);
 }
 
 @media (hover: hover) {
@@ -241,9 +236,9 @@ h1 + p {
     -webkit-columns: auto 2;
     -moz-columns: auto 2;
     columns: auto 2;
-    -webkit-column-gap: var(--size-1);
-    -moz-column-gap: var(--size-1);
-    column-gap: var(--size-1);
+    -webkit-column-gap: var(--gap-s);
+    -moz-column-gap: var(--gap-s);
+    column-gap: var(--gap-s);
   }
 }
 
@@ -252,8 +247,5 @@ h1 + p {
     -webkit-columns: auto 3;
     -moz-columns: auto 3;
     columns: auto 3;
-    -webkit-column-gap: var(--size-1);
-    -moz-column-gap: var(--size-1);
-    column-gap: var(--size-1);
   }
 }
