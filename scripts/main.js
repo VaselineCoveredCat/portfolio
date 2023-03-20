@@ -1,4 +1,4 @@
-const lenis = new Lenis({ wheelMultiplier: 1.5 });
+const lenis = new Lenis({ wheelMultiplier: 1.2 });
 const mediaQuery = window.matchMedia("(prefers-reduced-motion: no-preference)");
 
 function raf() {
